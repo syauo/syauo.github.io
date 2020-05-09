@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CANopenNode 用户手册
-date: 2018-3-26
+date: 2018-03-26 15:32:24.000000000 +09:00
 categories: [blog, Fieldbus]
 description: CANopenNode 的介绍及使用方法。
 keywords: CANopenNode, Embedded, Fieldbus, CANopen, PIC18F
