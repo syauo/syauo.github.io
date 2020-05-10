@@ -1,11 +1,14 @@
 # Basic
 title: Li.Qingwang
 subtitle: I am that I am.
-welcome_message: 你好，我是小我。
-description: 竟将云梦吞如芥 未信君山铲不平
+description: 学贵有恒 驽马奋蹄
+welcome_message: 你好，其实我是搞电的。
 creator: <a href="">@Syauo</a>
 
-url: "Qingwang.Li"
+timezone: Asia/Shanghai
+encoding: "utf-8"
+
+url: "https://Qingwang.Li"
 
 permalink: /:year/:month/:title/
 
@@ -31,10 +34,35 @@ paginate: 10
 paginate_path: "page/:num/"
 
 # Comment
-comment:
+#comment:
     # disqus: 
     # duoshuo: 
-    
+# ---------------- ############################################
+#      Comments    #
+# ---------------- #
+# support provider: disqus, gitment, gitalk
+comments_provider: gitalk
+# !!!重要!!! 请修改下面这些信息为你自己申请的
+# !!!Important!!! Please modify infos below to yours
+# https://disqus.com
+disqus:
+    username: 
+# https://imsun.net/posts/gitment-introduction/
+gitment:
+    owner: syauo
+    repo: blog-comments
+    oauth:
+        client_id: d8378284ac37cfe4b998
+        client_secret: 0c56cc87b8ca78044e7f99ad6fe01fdca5587265
+# https://github.com/gitalk/gitalk#install
+gitalk:
+    owner: syauo
+    repo: blog-comments
+    clientID: d8378284ac37cfe4b998
+    clientSecret: 0c56cc87b8ca78044e7f99ad6fe01fdca5587265
+# 在使用其它评论组件时可点击显示 Disqus
+lazy_load_disqus : false
+############################################################  
 # Social
 social:
     # weibo: 
@@ -45,5 +73,5 @@ social:
 
 # Google Analytics
 ga:
-    # id: your_ga_id
+    id: UA-116307746-1
     # host: your_host
