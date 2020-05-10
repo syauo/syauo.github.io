@@ -2,7 +2,7 @@
 title: Li.Qingwang
 subtitle: I am that I am.
 description: 学贵有恒 驽马奋蹄
-welcome_message: 你好，其实我是搞电的。
+welcome_message: 你好，我是小我，搞电的。
 creator: <a href="">@Syauo</a>
 
 timezone: Asia/Shanghai
@@ -10,10 +10,15 @@ encoding: "utf-8"
 
 url: "https://Qingwang.Li"
 
-permalink: /:year/:month/:title/
-
-# Format
+markdown: kramdown
+kramdown:
+    input: GFM
 highlighter: rouge
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
 cover_color: slate
@@ -25,7 +30,7 @@ blog_button:
 
 # Navigation buttons in the front page.
 nav:
-    - {title: About, description: About me, url: ''}
+    - {title: About, description: About me, url: '/about/'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
 
 # Pagination
